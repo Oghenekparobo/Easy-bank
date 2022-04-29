@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./public/style.css">
+  <title>Frontend Mentor | Easybank landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;  font-family: 'Water Brush', cursive;} 
+  </style>
+</head>
+<body class="font-poppins">
+
+
+  <nav class=" md:shadow-sm md:pt-6">
+    <div class="md:mx-auto md:flex md:justify-evenly">
+
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+  
+      <div class="nav-menus">
+        <ul class="md:flex">
+          <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black"> Home</a></li>
+          <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black">About</a></li>
+          <li class="nav-menu-border-style hover-animation"> <a href="" class="text-gray-400 hover:text-black">Contact</a></li>
+          <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black">Blog </a></li>
+          <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black"> Careers</a></li>
+        </ul>
+  
+      </div>
+      
+      <div class="nav-btn">
+        <a href="#" class="btn hover-animation">Request Invite</a>
+      </div>
+    </div>
+   
+  </nav>
+
+
+  <header class="p-10 flex justify-center items-center -z-50">
+
+    <div class="flex flex-col-reverse md:flex-row  md:space-x-44">
+
+      <div id="header-text" class="flex justify-center items-center pt-8 md:pt-0  ">
+
+       <div>
+        <div class="max-w-md font-bold text-3xl md:tracking-wide">
+          <h2> Next generation <br> digital  banking</h2>
+        </div>
+
+        <div class="max-w-md py-8">
+          <p class="text-sm text-gray-500">
+            Take your financial life online. Your Easybank account will be a one-stop-shop 
+            for spending, saving, budgeting, investing, and much more.</p>
+        </div>
+
+        <div class="pb-6">
+          <a href="#" class="btn">Request Invite</a>
+        </div>
+       </div>
+        
+      </div>
+
+      <div id="header-banner">
+        <div class="">
+          <img src="./images/image-mockups.png" class="h-96" alt="mockup">
+        </div>
+
+
+      </div>
+    </div>
+
+  </header>
+
+<section id="why" class="mx-auto bg-lightGrayishBlue  px-24 py-24">
+
+  <div class="why-text space-y-6">
+    <h1 class="font-bold text-2xl"> Why choose Easybank?</h1>
+    <p class="tracking-tight text-gray-500 text-sm max-w-md pb-10">  We leverage Open Banking to turn your bank account into your financial hub. Control 
+      your finances like never before.</p>
+  </div>
+
+  <div class="why-reasons">
+    <div class="grid grid-cols-1 md:grid-cols-4 space-y-14 md:space-y-0">
+
+      <div class="reasons space-y-4">
+        <div class="resons-icon">
+          <img src="./images/icon-online.svg" alt="online-budgeting">
+        </div>
+
+        <h6 class="font-bold md:tracking-wide">Online Banking</h6>
+
+        <p class="text-sm max-w-sm text-gray-500">  Our modern web and mobile <br> applications allow you to keep <br> track of your finances 
+          wherever you <br> are in the world.</p>
+      </div>
+
+      <div class="reasons space-y-4">
+        <div class="resons-icon">
+          <img src="./images/icon-budgeting.svg" alt="online-budgeting">
+        </div>
+
+        <h6 class="font-bold md:tracking-wide">Simple Budgeting</h6>
+
+        <p class="text-sm max-w-sm text-gray-500">See exactly where your money <br> goes each month. Receive notifications <br> when you’re 
+          close to <br> hitting your limits.</p>
+      </div>
+
+      
+      <div class="reasons space-y-4">
+        <div class="resons-icon">
+          <img src="./images/icon-onboarding.svg" alt="online-budgeting">
+        </div>
+
+        <h6 class="font-bold md:tracking-wide"> Fast Onboarding</h6>
+
+        <p class="text-sm max-w-sm text-gray-500">  We don’t do branches. Open your <br> account in minutes online and start <br> taking control 
+          of your finances right away.</p>
+      </div>
+
+      <div class="reasons space-y-4">
+        <div class="resons-icon">
+          <img src="./images/icon-api.svg" alt="online-budgeting">
+        </div>
+
+        <h6 class="font-bold md:tracking-wide"> Open API</h6>
+
+        <p class="text-sm max-w-sm text-gray-500"> Manage your savings, investments, <br> pension, and much more from one <br> account. Tracking 
+          your money has <br> never been easier.</p>
+      </div>
+
+
+    </div>
+  </div>
+
+</section>
+
+
+  
+<article id="article" class="mx-auto bg-veryLightGray  px-24 py-24">
+
+  <div class="why-text space-y-6 ">
+    <h1 class="font-bold text-2xl pb-16"> Latest Articles</h1>
+  </div>
+
+  <div class="why-reasons">
+    <div class="grid grid-cols-1 md:grid-cols-4 space-y-14 md:space-y-0">
+
+      <div class="reasons  space-y-4 shadow-sm bg-white rounded overflow-hidden">
+        <div class="resons-icon">
+          <img src="./images/image-currency.jpg" alt="online-budgeting">
+        </div>
+
+        <div class="px-4 py-8 space-y-2">
+          <h6 class="text-sm max-w-sm text-gray-500">By Claire Robinson</h6>
+          <p class="font-bold text-xl hover:text-green-600 hover-animation cursor-not-allowed "> Receive money in any currency with no fees </p>
+          <p class="text-sm max-w-sm text-gray-500"> The world is getting smaller and we’re becoming more mobile. So why should you be 
+            forced to only receive money in a single …</p>
+        </div>
+
+        
+      </div>
+
+      <div class="reasons ml-6 space-y-4 shadow-sm bg-white rounded overflow-hidden">
+        <div class="resons-icon">
+          <img src="./images/image-restaurant.jpg" alt="online-budgeting">
+        </div>
+
+        <div class="px-4 py-8 space-y-2">
+          <h6 class="text-sm max-w-sm text-gray-500"> By Wilson Hutton</h6>
+          <p class="font-bold text-xl hover:text-green-600 hover-animation cursor-not-allowed "> Treat yourself without worrying about money </p>
+          <p class="text-sm max-w-sm text-gray-500">   
+            Our simple budgeting feature allows you to separate out your spending and set 
+            realistic limits each month. That means you …</p>
+        </div>
+
+        
+      </div>
+
+     
+
+      <div class="reasons ml-6 space-y-4 shadow-sm bg-white rounded overflow-hidden">
+        <div class="resons-icon">
+          <img src="./images/image-plane.jpg" alt="online-budgeting">
+        </div>
+
+        <div class="px-4 py-8 space-y-2">
+          <h6 class="text-sm max-w-sm text-gray-500">By Wilson Hutton</h6>
+          <p class="font-bold text-xl hover:text-green-600 hover-animation cursor-not-allowed ">  Take your Easybank card wherever you go</p>
+          <p class="text-sm max-w-sm text-gray-500">  We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+            while you’re abroad. We’ll even show you …</p>
+        </div>
+
+        
+      </div>
+
+      <div class="reasons ml-6 space-y-4 shadow-sm bg-white rounded overflow-hidden">
+        <div class="resons-icon">
+          <img src="./images/image-currency.jpg" alt="online-budgeting">
+        </div>
+
+        <div class="px-4 py-8 space-y-2">
+          <h6 class="text-sm max-w-sm text-gray-500">By Claire Robinson</h6>
+          <p class="font-bold text-xl hover:text-green-600 hover-animation cursor-not-allowed "> Our invite-only Beta accounts are now live! </p>
+          <p class="text-sm max-w-sm text-gray-500">  After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+            It’s easy to request an invite through the site ...</p>
+        </div>
+
+        
+      </div>
+
+
+    </div>
+  </div>
+
+</article>
+
+ 
+
+ 
+
+<footer class="bg-darkBlue py-16 text-center">
+
+  <div class="footer-container flex flex-col md:flex-row md:justify-evenly">
+
+    <div class="logo-sm pl-32 pb-8 text-center flex flex-col space-y-10 md:space-y-4 md:pl-0 md:pb-0">
+
+      <div class="logo">
+        <img src="./images/logo.svg" class="bg-white" alt="">
+      </div>
+      
+      <div class="sm-links">
+        <ul class="flex flex-row  md:space-x-4">
+          <li><a href="#" ><img src="./images/icon-facebook.svg" class="hover:bg-green-600 hover-animation" alt=""></a></li>
+          <li><a href="#" class=""><img src="./images/icon-youtube.svg" class="hover:bg-green-600 hover-animation" alt=""></a></li>
+          <li><a href="#" ><img src="./images/icon-twitter.svg" class="hover:bg-green-600 hover-animation" alt=""></a></li>
+          <li><a href="#" ><img src="./images/icon-pinterest.svg" class="hover:bg-green-600 hover-animation" alt=""></a></li>
+          <li><a href="#" ><img src="./images/icon-instagram.svg" class="hover:bg-green-600 hover-animation" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-links flex flex-col md:flex-row md:justify-evenly space-y-8 md:space-x-24">
+
+      <div class="links flex flex-col text-sm text-white md:flex-row md:space-x-24">
+        <ul>
+          <li><a href="#" class="hover:text-green-600 hover-animation"> About Us</a></li>
+          <li><a href="#" class="hover:text-green-600 hover-animation">Contact</a></li>
+          <li><a href="#" class="hover:text-green-600 hover-animation">Blog</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="hover:text-green-600 hover-animation"> Careers</a></li>
+          <li><a href="#" class="hover:text-green-600 hover-animation"> Support</a></li>
+          <li><a href="#" class="hover:text-green-600 hover-animation">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-btn space-y-8 md:space-y-6">
+        <a href="#" class="btn">Request Invite</a>
+        <p class="text-sm text-gray-500">© Easybank. All Rights Reserved</p>
+      </div>
+
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <div class="attribution text-gray-500 relative -bottom-10 font-waterbrush">
+    Coded by <a href="#">stephen</a>.
+  </div>
+
+
+</footer>
+  
+ 
+ 
+
+  
+  
+
+ 
+</body>
+</html>

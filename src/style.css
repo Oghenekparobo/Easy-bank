@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-menu-border-style{ 
+    @apply md:pl-8  md:h-16 md:hover:border-b md:hover:border-limeGreen;
+}
+
+.hover-animation{ 
+   @apply hover:transition-all hover:duration-500 hover:ease-in-out;
+}
+
+.btn{ 
+    @apply bg-limeGreen px-4 py-2 rounded-full  text-white hover:bg-lime-700 hover:text-gray-200 ;
+}
+
+#header-banner{ 
+    background: url('../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}

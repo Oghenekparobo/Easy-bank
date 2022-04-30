@@ -18,8 +18,8 @@
 <body class="font-poppins">
 
 
-  <nav class=" md:shadow-sm md:pt-6">
-    <div class="md:mx-auto md:flex md:justify-evenly">
+  <nav class=" md:shadow-sm md:pt-6 ">
+    <div class=" hidden  md:mx-auto md:flex md:justify-evenly md:block"">
 
       <div class="logo">
         <img src="./images/logo.svg" alt="">
@@ -40,6 +40,46 @@
         <a href="#" class="btn hover-animation">Request Invite</a>
       </div>
     </div>
+
+    <!-- responsive nav -->
+    <div class=" block relative flex flex-col text-center md:hidden">
+
+      <div class="shadow p-6 flex justify-between"> 
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+     
+
+      </div>
+
+  
+      <div id="responsive-menus" class="bg-white rounded p-10 absolute top-20  w-80 right-8 hidden">
+        <div class="nav-menus">
+          <ul class="md:flex space-y-10">
+            <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black"> Home</a></li>
+            <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black">About</a></li>
+            <li class="nav-menu-border-style hover-animation"> <a href="" class="text-gray-400 hover:text-black">Contact</a></li>
+            <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black">Blog </a></li>
+            <li class="nav-menu-border-style hover-animation"><a href="#" class="text-gray-400 hover:text-black"> Careers</a></li>
+          </ul>
+    
+        </div>
+        
+
+        
+      </div>
+     
+      <div class="nav-btn hidden md:block">
+        <a href="#" class="btn hover-animation">Request Invite</a>
+      </div>
+    </div>
+
+
    
   </nav>
 

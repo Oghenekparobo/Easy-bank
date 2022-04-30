@@ -33,7 +33,7 @@
 
 
 #### Continued development
---looking forward on using javascript to work on the responsive nav menus.
+--i couldn't make the hamburger to collapse back after you click on it, so i will be improving my js and work on my javascript skills.
 
 
 ## Author
